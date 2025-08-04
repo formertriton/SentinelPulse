@@ -48,9 +48,12 @@ sentinelpulse/
 
 <img width="875" height="313" alt="CodeSnippet" src="https://github.com/user-attachments/assets/04b67706-0e4d-408f-a415-01e53f02e275" />
 
-Why the name SentinelPulse?
+
+# Why the name SentinelPulse?
 
 •	Sentinel: A sentinel is a guard or watchman—symbolizing constant vigilance over your system.
+
 •	Pulse: Reflects the ongoing, real-time heartbeat or vital signs of the system’s health.
+
 Together, the name conveys a reliable watchdog keeping a finger on the system’s pulse to detect and signal problems early.
 
