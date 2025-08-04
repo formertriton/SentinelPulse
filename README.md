@@ -13,6 +13,8 @@ Real-time dashboard	    Web interface to visualize system state
 Logging	                Write system logs to local .log files or SQLite
 Modular design	        Easy to extend new modules like GPU stats or container metrics
 
+<img width="814" height="674" alt="HealthBoard" src="https://github.com/user-attachments/assets/87e2ccca-39ff-43df-8330-5861997ae786" />
+
 📁 Folder Structure
 ```
 sentinelpulse/
@@ -40,3 +42,4 @@ sentinelpulse/
 │
 └── .gitignore              # Files/folders to ignore in git
 
+<img width="875" height="313" alt="CodeSnippet" src="https://github.com/user-attachments/assets/04b67706-0e4d-408f-a415-01e53f02e275" />
