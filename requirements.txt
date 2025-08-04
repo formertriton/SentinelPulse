@@ -1,0 +1,9 @@
+psutil
+streamlit
+schedule
+loguru
+plotly
+dash
+sqlite3
+pytest
+tabulate
