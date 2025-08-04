@@ -2,9 +2,11 @@
 Automated System Health and Resource Monitoring Dashboard
 
 💡 Project Summary
+
 Create a Python-based, modular system that monitors and displays the health of various systems or simulated services (CPU, memory, disk, network I/O, and mock service statuses), with real-time updates via a web dashboard (e.g., using Dash or Streamlit).
 
 🧱 Core Features
+
 Feature	                Description
 System metrics	        Collect live CPU, RAM, disk, I/O, uptime, etc. using psutil
 Service status check	  Simulated pings to mock services or endpoints
@@ -16,6 +18,7 @@ Modular design	        Easy to extend new modules like GPU stats or container me
 <img width="814" height="674" alt="HealthBoard" src="https://github.com/user-attachments/assets/87e2ccca-39ff-43df-8330-5861997ae786" />
 
 📁 Folder Structure
+
 ```
 sentinelpulse/
 │
