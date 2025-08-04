@@ -17,21 +17,26 @@ Modular design	        Easy to extend new modules like GPU stats or container me
 
 sentinelpulse/
 │
-├── app.py                  # Streamlit or Dash frontend
-├── monitor/
+├── app.py                  # Main Streamlit app entry point
+├── README.md               # Project overview, instructions
+├── requirements.txt        # Python dependencies
+│
+├── monitor/                # Core monitoring modules
 │   ├── __init__.py
-│   ├── system_metrics.py   # CPU, RAM, etc.
-│   ├── service_checker.py  # Ping mock services
-│   └── alert_manager.py    # Threshold logic
+│   ├── system_metrics.py   # CPU, RAM, disk usage etc.
+│   ├── service_checker.py  # Service availability checks
+│   └── alert_manager.py    # Alerts and thresholds
 │
-├── data/
-│   └── logs/               # Saved logs, SQLite or flat files
+├── utils/                  # Utility/helper functions
+│   ├── __init__.py
+│   ├── config.py           # Configuration variables, thresholds
+│   └── logger.py           # Logging setup and functions
 │
-├── utils/
-│   ├── config.py           # Thresholds, refresh rate, etc.
-│   └── logger.py           # Logging logic
+├── data/                   # Data storage (logs, databases)
+│   └── logs/               # Log files, SQLite DB files if any
 │
-├── tests/
-│   └── test_metrics.py     # Unit tests for monitor components
+├── tests/                  # Unit tests
+│   └── test_metrics.py     # Tests for monitor modules
 │
-└── README.md
+└── .gitignore              # Files/folders to ignore in git
+
