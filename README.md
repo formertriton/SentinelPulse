@@ -41,5 +41,6 @@ sentinelpulse/
 │   └── test_metrics.py     # Tests for monitor modules
 │
 └── .gitignore              # Files/folders to ignore in git
+```
 
 <img width="875" height="313" alt="CodeSnippet" src="https://github.com/user-attachments/assets/04b67706-0e4d-408f-a415-01e53f02e275" />
