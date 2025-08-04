@@ -14,7 +14,7 @@ Logging	                Write system logs to local .log files or SQLite
 Modular design	        Easy to extend new modules like GPU stats or container metrics
 
 📁 Folder Structure
-
+```
 sentinelpulse/
 │
 ├── app.py                  # Main Streamlit app entry point
